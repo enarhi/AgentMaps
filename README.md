@@ -2,14 +2,14 @@
 
 <img src="resources/agentgif.gif" width="500" height="387" />
 
-AgentMaps is a Javascript library for building and visualizing dynamic social systems on maps.
+AgentMaps is a JS library for building and visualizing dynamic social systems on maps.
 It is based on the [Leaflet](https://leafletjs.com/) interactive mapping [library](https://github.com/Leaflet/Leaflet).
-Given a neighborhood, AgentMaps lets you quickly and easily:
+Provided a neighborhood, AgentMaps lets you quickly and easily:
 
-* Build units along the streets.
-* Spawn agents onto the map.
-* Schedule them to move between places on the map.
-* Change their appearance and properties.
+* Build houses along the streets.
+* Put agents on the map.
+* Schedule them to move between places.
+* Change their appearance and internal properties.
 
 AgentMaps lets you turn this:
 
@@ -34,7 +34,7 @@ A basic walkthrough for creating an AgentMaps simulation can be found [here](htt
 
 [Simple](https://noncomputable.github.io/AgentMaps/demos/simple/simple.html): Shows all the different ways agents can travel around a map.
 
-[Basic Contagion](https://noncomputable.github.io/AgentMaps/demos/basic_contagion/basic_contagion.html): Agents commute between different parts of a neighborhood while an infection spreads between them.
+[Contagion](https://noncomputable.github.io/AgentMaps/demos/basic_contagion/basic_contagion.html): Agents commute between different parts of a neighborhood while an infection spreads between them.
 
 You can find the corresponding code under _/demos_ in the gh-pages branch [here](https://github.com/noncomputable/AgentMaps/tree/gh-pages/demos).
 
